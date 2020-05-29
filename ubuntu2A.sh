@@ -1,9 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 folder=ubuntu-fs
-if [ -d "$folder" ]; then
-	first=1
-	echo "skipping downloading"
-fi
 tarball="ubuntu.tar.gz"
 if [ "$first" != 1 ];then
 	if [ ! -f $tarball ]; then
